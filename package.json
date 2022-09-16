@@ -4,8 +4,10 @@
     "express.js": "^1.0.0"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node .",
+    "dev": "DEVELOPMENT=true nodemon ."
   },
+  "main": "index.js",
   "devDependencies": {
     "nodemon": "^2.0.16"
   }
