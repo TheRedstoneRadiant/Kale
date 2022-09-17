@@ -43,3 +43,18 @@ header > a {
 .links > a:hover {
   text-decoration: underline;
 }
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+#paste {
+  border: 2px solid #003E1F;
+  outline: none;
+  font-family: monospace;
+  resize: none;
+  height: 80%;
+  width: 98%;
+  background-color: #D1FFC6;
+}
