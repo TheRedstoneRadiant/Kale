@@ -4,8 +4,8 @@ if (process.env["DEVELOPMENT"]) {
 
 const express = require("express");
 const { MongoClient } = require('mongodb');
-
 const client = new MongoClient(process.env["MONGO_URI"], { useNewUrlParser: true, useUnifiedTopology: true });
+
 
 client.connect(err => {
     if (err) {
