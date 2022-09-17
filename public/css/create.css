@@ -6,6 +6,7 @@ html, body {
 }
 
 body {
+    padding: 0 20px 0 20px;
     background-color: #73BA9B;
 }
 
@@ -20,7 +21,6 @@ header {
     height: 120px;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
 }
 
 header > a {
@@ -36,8 +36,8 @@ header > a {
 }
 
 .links > a {
+  color: #003E1F;
   text-decoration: unset;
-  color: unset;
 }
 
 .links > a:hover {
@@ -55,6 +55,6 @@ main {
   font-family: monospace;
   resize: none;
   height: 80%;
-  width: 98%;
+  width: 100%;
   background-color: #D1FFC6;
 }
