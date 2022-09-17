@@ -6,39 +6,16 @@ html, body {
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     background-color: #73BA9B;
 }
 
 .logo {
   color: #003E1F;
   font-family: 'Permanent Marker', cursive;
-  font-size: 200px;
-  margin: 0 0 40px 0;
+  font-size: 80px;
+  margin: 0;
 }
 
-.buttons {
-  display: flex;
-  width: 400px;
-  justify-content: space-evenly;
-}
-
-.buttons > a > button {
-  cursor: pointer;
-  font-family: 'Raleway', sans-serif;
-  background-color: #01110A;
-  color: white;
-  border-radius: 50px;
-  width: 150px;
-  height: 50px;
-  border: none;
-  transition: all 0.5s;
-}
-
-
-.buttons > a > button:hover {
-  opacity: 0.9;
+header > a {
+  text-decoration: unset;
 }
