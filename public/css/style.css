@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@500&display=swap');
+
 html, body {
     height: 100%;
     margin: 0;
@@ -7,4 +9,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background-color: #73BA9B;
+}
+
+.logo {
+  color: #003E1F;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 100px;
+}
+
+.buttons > button {
+  font-family: 'Poppins', sans-serif;
+  background-color: #01110A;
+  color: white;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  border: none;
 }
