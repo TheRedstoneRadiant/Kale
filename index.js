@@ -26,6 +26,10 @@ app.get("/", (req, res) => {
     res.render("index");
 });
 
+app.get("/create", (req, res) => {
+    res.render("create");
+});
+
 app.listen(8080, () => {
     console.log("Listening on port 8080\nhttp://localhost:8080");
 });
