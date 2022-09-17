@@ -16,6 +16,30 @@ body {
   margin: 0;
 }
 
+header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
 header > a {
   text-decoration: unset;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.links > a {
+  text-decoration: unset;
+  color: unset;
+}
+
+.links > a:hover {
+  text-decoration: underline;
 }
